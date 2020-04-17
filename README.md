@@ -17,5 +17,5 @@ Having segmented the hand region from the live video sequence, we will make our 
 2.Find the center of palm using these extremes points in the convex hull.
 3.Using the palm’s center, construct a circle with the maximum Euclidean distance (between the palm’s center and the extreme points) as radius.
 4.Perform bitwise AND operation between the thresholded hand image (frame) and the circular ROI (mask). This reveals the finger slices, which could further be used to calcualate the number of fingers shown.
-##### After that, you can use bring in your hand into the bounding box, show gestures and the count of fingers will be displayed accordingly. I have included a demo of the entire pipeline below.
+##### After that, you can use bring in your hand into the bounding box, show gestures and the count of fingers will be displayed accordingly.
 Reference:Hand gesture recoginition using pyhton and OpenCv(gogul Ilango).
